@@ -4,7 +4,7 @@
 topological invariants of a compact geometry, with particles read as
 arithmetic-geometric objects.
 
-![The stabilizer chain](assets/hero_stabilizer_chain.png)
+![Arithmon](https://raw.githubusercontent.com/arithmon/.github/main/assets/arithmon-wide.png)
 
 ---
 
