@@ -1,6 +1,6 @@
 # Arithmon
 
-**A research program exploring whether the constants of nature are counts** —
+**A research program exploring whether the constants of nature are counts:**
 topological invariants of a compact geometry, with particles read as
 arithmetic-geometric objects.
 
@@ -13,12 +13,12 @@ arithmetic-geometric objects.
 *Arithmon* is the **program**: the durable hypothesis that the dimensionless
 constants of physics are arithmetic and topological invariants of geometry,
 rather than free parameters to be fitted. It is meant to outlive any single
-implementation — a direction of inquiry, in the spirit of a research program
+implementation: a direction of inquiry, in the spirit of a research program
 rather than one conjecture.
 
 **GIFT** is its **founding framework**: the first concrete, dated realization of
-that hypothesis. A specific compact G₂-holonomy geometry — the manifold K₇, the
-(21, 77) topology, an E₈×E₈-motivated exceptional architecture — from which a set
+that hypothesis. A specific compact G₂-holonomy geometry: the manifold K₇, the
+(21, 77) topology, an E₈×E₈-motivated exceptional architecture. From it, a set
 of exact, parameter-free relations among Standard-Model and cosmological
 observables is derived, with a machine-checked formal core.
 
@@ -42,7 +42,7 @@ it answers to.
 
 - **The idea and the physics** → [github.com/gift-framework/GIFT](https://github.com/gift-framework/GIFT)
 - **The formal proofs (Lean core)** → [github.com/gift-framework/core](https://github.com/gift-framework/core)
-- **The paper** — *A Falsifiable Topological Correspondence for the Standard
+- **The paper**: *A Falsifiable Topological Correspondence for the Standard
   Model Parameters from a G₂-Holonomy Manifold* (submitted to *Foundations of
   Physics*, under review).
 
