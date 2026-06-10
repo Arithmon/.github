@@ -251,8 +251,11 @@ def fix_content(content: str) -> str:
 # Driver
 # ---------------------------------------------------------------------------
 
+EXCLUDE_DIRS = {".git", ".arithmon-ci", "node_modules"}
+
+
 def find_markdown(root: Path) -> list[Path]:
-    return sorted(p for p in root.rglob("*.md") if ".git" not in p.parts)
+    return sorted(p for p in root.rglob("*.md") if not (EXCLUDE_DIRS & set(p.parts)))
 
 
 def main() -> int:
@@ -260,10 +263,12 @@ def main() -> int:
     ap.add_argument("--check", action="store_true", help="report only (default)")
     ap.add_argument("--fix", action="store_true", help="remove em dashes in place")
     ap.add_argument("--verbose", "-v", action="store_true")
+    ap.add_argument("--root", type=Path, default=None,
+                    help="directory to scan (default: the repository root)")
     ap.add_argument("paths", nargs="*", type=Path)
     args = ap.parse_args()
 
-    root = Path(__file__).resolve().parent.parent
+    root = args.root.resolve() if args.root else Path(__file__).resolve().parent.parent
     files = args.paths if args.paths else find_markdown(root)
 
     if args.fix:

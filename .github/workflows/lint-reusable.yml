@@ -1,0 +1,49 @@
+name: Lint (reusable)
+
+# Shared prose gate for the Arithmon organization. Any repository can call it:
+#
+#   jobs:
+#     lint:
+#       uses: arithmon/.github/.github/workflows/lint-reusable.yml@main
+#
+# The linter itself lives only here, in arithmon/.github.
+
+on:
+  workflow_call:
+    inputs:
+      ref:
+        description: Version of the arithmon/.github linter to use.
+        type: string
+        required: false
+        default: main
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    name: Documentation prose gate
+    steps:
+      - name: Checkout the calling repository
+        uses: actions/checkout@v4
+
+      - name: Fetch the linter from arithmon/.github
+        uses: actions/checkout@v4
+        with:
+          repository: arithmon/.github
+          ref: ${{ inputs.ref }}
+          path: .arithmon-ci
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run linter on this repository
+        run: python .arithmon-ci/scripts/lint.py --check --verbose --root .
+
+      - name: Upload lint report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lint-report
+          path: lint_report.json
+          retention-days: 30

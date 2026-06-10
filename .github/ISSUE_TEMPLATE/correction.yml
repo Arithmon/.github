@@ -1,0 +1,25 @@
+name: Scientific correction
+description: Report a wrong number, a broken derivation, or a citation error.
+labels: [correction]
+body:
+  - type: textarea
+    id: where
+    attributes:
+      label: Where
+      description: File, section, equation, or line.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What is wrong, and what it should be. Be specific.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: A reference, a computation, or a counterexample.
+    validations:
+      required: false

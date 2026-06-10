@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: The founding framework (GIFT)
+    url: https://github.com/gift-framework/GIFT
+    about: Code, proofs, and physics live in the framework repositories.
+  - name: Arithmon on the web
+    url: https://arithmon.com
+    about: Program overview.
