@@ -40,9 +40,6 @@ it answers to.
 
 - **The idea and the physics** → [github.com/gift-framework/GIFT](https://github.com/gift-framework/GIFT)
 - **The formal proofs (Lean core)** → [github.com/gift-framework/core](https://github.com/gift-framework/core)
-- **The paper**: *A Falsifiable Topological Correspondence for the Standard
-  Model Parameters from a G₂-Holonomy Manifold* (submitted to *Foundations of
-  Physics*, under review).
 
 ### External engagement
 
