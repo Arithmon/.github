@@ -1,10 +1,8 @@
-# Arithmon
+![Arithmon](https://raw.githubusercontent.com/arithmon/.github/main/assets/arithmon-wide.png)
 
 **A research program exploring whether the constants of nature are counts:**
 topological invariants of a compact geometry, with particles read as
 arithmetic-geometric objects.
-
-![Arithmon](https://raw.githubusercontent.com/arithmon/.github/main/assets/arithmon-wide.png)
 
 ---
 
