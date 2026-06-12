@@ -1,0 +1,61 @@
+name: Sync watch
+
+# Daily cross-repo consistency check (scripts/sync_check.py): descriptions,
+# canonical footer, sibling links, freeze DOI/version facts vs the Sieve
+# README. On drift it opens (or refreshes) a single 'sync-drift' issue in
+# this repository; it closes the issue once everything is back in sync.
+# It never edits anything: fixing drift stays a deliberate, logged act.
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run sync check
+        id: check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set +e
+          python3 scripts/sync_check.py --report report.md
+          echo "status=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Open or refresh the drift issue
+        if: steps.check.outputs.status != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create sync-drift --color D93F0B \
+            --description "Cross-repo README/changelog drift" --force
+          existing=$(gh issue list --label sync-drift --state open \
+            --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue edit "$existing" --body-file report.md
+            gh issue comment "$existing" \
+              --body "Still drifting on $(date -u +%F) (report refreshed above)."
+          else
+            gh issue create --title "Cross-repo sync drift" \
+              --label sync-drift --body-file report.md
+          fi
+
+      - name: Close the drift issue when clean
+        if: steps.check.outputs.status == '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          existing=$(gh issue list --label sync-drift --state open \
+            --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue close "$existing" \
+              --comment "Back in sync: all invariants pass."
+          fi
