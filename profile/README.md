@@ -36,6 +36,21 @@ it answers to.
 - **Non-generic at set level** (~10⁻⁶, assumption-free null model)
 - Numerical precision is reported as a secondary figure, not the headline.
 
+### The instruments
+
+- [**Program**](https://github.com/arithmon/program): the charter (hard core,
+  heuristics, fair-play rules) and the open problems, with the confrontations
+  scoreboard of frozen, dated predictions.
+- [**Atlas**](https://github.com/arithmon/atlas): the annotated map of adjacent
+  work, one precise delta per entry.
+- [**Sieve**](https://github.com/arithmon/sieve): the methodology standard for
+  the question *how surprising is a claimed exact relation between mathematical
+  invariants and measured constants?* Inputs frozen and deposited before any
+  search ran ([DOI 10.5281/zenodo.20666879](https://doi.org/10.5281/zenodo.20666879)),
+  four null models, calibration on historical verdicts (Eddington fails, the
+  quantum Hall relation passes), and a scorecard reusable on any framework,
+  including ours.
+
 ### Start here
 
 - **The idea and the physics** → [github.com/gift-framework/GIFT](https://github.com/gift-framework/GIFT)
