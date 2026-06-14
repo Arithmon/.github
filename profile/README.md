@@ -50,6 +50,9 @@ it answers to.
   four null models, calibration on historical verdicts (Eddington fails, the
   quantum Hall relation passes), and a scorecard reusable on any framework,
   including ours.
+- [**Lean**](https://github.com/arithmon/lean): the machine-checked formal layer
+  of the Sieve. Certified expression-space counts (the haystack the trials
+  factor divides by) and the in-framework-theorem rebate, in Lean 4.
 
 ### Start here
 

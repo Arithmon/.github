@@ -39,13 +39,14 @@ FILES = {
     "program_problem": ("Arithmon/Program", "problems/coincidence-methodology.md"),
     "atlas": ("Arithmon/Atlas", "README.md"),
     "sieve": ("Arithmon/Sieve", "README.md"),
+    "lean": ("Arithmon/Lean", "README.md"),
     "hub": ("gift-framework/gift-framework", "README.md"),
     "gift": ("gift-framework/GIFT", "README.md"),
     "core": ("gift-framework/core", "README.md"),
 }
 
 # Repositories that must carry a non-empty GitHub description.
-DESCRIBED_REPOS = ["Arithmon/.github", "Arithmon/Program", "Arithmon/Atlas", "Arithmon/Sieve"]
+DESCRIBED_REPOS = ["Arithmon/.github", "Arithmon/Program", "Arithmon/Atlas", "Arithmon/Sieve", "Arithmon/Lean"]
 
 FOOTER = "GIFT is the founding framework of the Arithmon program"
 
@@ -55,6 +56,7 @@ REQUIRED = {
         ("link to Program", "github.com/arithmon/program"),
         ("link to Atlas", "github.com/arithmon/atlas"),
         ("link to Sieve", "github.com/arithmon/sieve"),
+        ("link to Lean", "github.com/arithmon/lean"),
         ("link to GIFT docs", "github.com/gift-framework/gift"),
         ("link to Lean core", "github.com/gift-framework/core"),
     ],
@@ -72,6 +74,12 @@ REQUIRED = {
         ("canonical footer", FOOTER),
         ("link to Program", "github.com/arithmon/program"),
         ("link to Atlas", "github.com/arithmon/atlas"),
+    ],
+    "lean": [
+        ("canonical footer", FOOTER),
+        ("link to Program", "github.com/arithmon/program"),
+        ("link to Atlas", "github.com/arithmon/atlas"),
+        ("link to Sieve", "github.com/arithmon/sieve"),
     ],
     "hub": [("Arithmon program banner", "arithmon program")],
     "gift": [("Arithmon program banner", "arithmon program")],
