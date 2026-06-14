@@ -36,6 +36,16 @@ it answers to.
 - **Non-generic at set level** (~10⁻⁶, assumption-free null model)
 - Numerical precision is reported as a secondary figure, not the headline.
 
+### The map in one screen
+
+```text
+  Arithmon   the program                  →  are the constants of nature counts?
+  GIFT       the first framework          →  one dated answer: K₇, (21, 77), 33 relations
+  Sieve      the anti-numerology test     →  how surprising is that answer?
+  Lean       the certified counting layer →  the arithmetic of the test, machine-checked
+  Atlas      the map of neighbouring work →  who else stands near the question
+```
+
 ### The instruments
 
 - [**Program**](https://github.com/arithmon/program): the charter (hard core,
@@ -54,10 +64,27 @@ it answers to.
   of the Sieve. Certified expression-space counts (the haystack the trials
   factor divides by) and the in-framework-theorem rebate, in Lean 4.
 
-### Start here
+### Choose your path
 
-- **The idea and the physics** → [github.com/gift-framework/GIFT](https://github.com/gift-framework/GIFT)
-- **The formal proofs (Lean core)** → [github.com/gift-framework/core](https://github.com/gift-framework/core)
+Three ways in, by who you are.
+
+- **You do physics.** Start with the [Program](https://github.com/arithmon/program)
+  (the hypothesis and the open problems) and the
+  [Sieve](https://github.com/arithmon/sieve) (whether the exact relations are
+  more than coincidence). The physics itself, derived and dated, is in
+  [GIFT](https://github.com/gift-framework/gift).
+- **You do mathematics.** Start with [Lean](https://github.com/arithmon/lean)
+  (the certified counts, **0** `sorry`) and the geometry entries in the
+  [Atlas](https://github.com/arithmon/atlas) (G₂ holonomy, K3, the (21, 77)
+  topology). The full formal core is at
+  [gift-framework/core](https://github.com/gift-framework/core).
+- **You read with suspicion.** Start with the
+  [Sieve](https://github.com/arithmon/sieve): the test built to catch
+  numerology, frozen before any search ran and calibrated so that Eddington
+  fails and the quantum Hall relation passes. Then the confrontations
+  scoreboard (named predictions against scheduled data) in the
+  [Program](https://github.com/arithmon/program). Read these before you read
+  any claim we make.
 
 ### External engagement
 
