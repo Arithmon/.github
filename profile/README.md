@@ -77,7 +77,7 @@ Three ways in, by who you are.
   (the certified counts, **0** `sorry`) and the geometry entries in the
   [Atlas](https://github.com/arithmon/atlas) (G₂ holonomy, K3, the (21, 77)
   topology). The full formal core is at
-  [gift-framework/core](https://github.com/gift-framework/core).
+  [K7-Lean](https://github.com/arithmon/k7-lean) (formerly gift-framework/core).
 - **You read with suspicion.** Start with the
   [Sieve](https://github.com/arithmon/sieve): the test built to catch
   numerology, frozen before any search ran and calibrated so that Eddington

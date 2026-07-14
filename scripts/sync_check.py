@@ -42,7 +42,7 @@ FILES = {
     "lean": ("Arithmon/Lean", "README.md"),
     "hub": ("gift-framework/gift-framework", "README.md"),
     "gift": ("Arithmon/K7", "README.md"),
-    "core": ("gift-framework/core", "README.md"),
+    "core": ("Arithmon/K7-Lean", "README.md"),
 }
 
 # Repositories that must carry a non-empty GitHub description.
@@ -58,7 +58,7 @@ REQUIRED = {
         ("link to Sieve", "github.com/arithmon/sieve"),
         ("link to Lean", "github.com/arithmon/lean"),
         ("link to K7 docs", "github.com/arithmon/k7"),
-        ("link to Lean core", "github.com/gift-framework/core"),
+        ("link to Lean core", "github.com/arithmon/k7-lean"),
     ],
     "program": [
         ("canonical footer", FOOTER),
