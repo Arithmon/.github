@@ -41,7 +41,7 @@ FILES = {
     "sieve": ("Arithmon/Sieve", "README.md"),
     "lean": ("Arithmon/Lean", "README.md"),
     "hub": ("gift-framework/gift-framework", "README.md"),
-    "gift": ("gift-framework/GIFT", "README.md"),
+    "gift": ("Arithmon/K7", "README.md"),
     "core": ("gift-framework/core", "README.md"),
 }
 
@@ -57,7 +57,7 @@ REQUIRED = {
         ("link to Atlas", "github.com/arithmon/atlas"),
         ("link to Sieve", "github.com/arithmon/sieve"),
         ("link to Lean", "github.com/arithmon/lean"),
-        ("link to GIFT docs", "github.com/gift-framework/gift"),
+        ("link to K7 docs", "github.com/arithmon/k7"),
         ("link to Lean core", "github.com/gift-framework/core"),
     ],
     "program": [

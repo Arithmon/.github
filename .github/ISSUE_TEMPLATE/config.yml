@@ -1,7 +1,7 @@
 blank_issues_enabled: true
 contact_links:
-  - name: The founding framework (GIFT)
-    url: https://github.com/gift-framework/GIFT
+  - name: The K₇ framework (formerly GIFT)
+    url: https://github.com/Arithmon/K7
     about: Code, proofs, and physics live in the framework repositories.
   - name: Arithmon on the web
     url: https://arithmon.com

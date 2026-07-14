@@ -72,7 +72,7 @@ Three ways in, by who you are.
   (the hypothesis and the open problems) and the
   [Sieve](https://github.com/arithmon/sieve) (whether the exact relations are
   more than coincidence). The physics itself, derived and dated, is in
-  [GIFT](https://github.com/gift-framework/gift).
+  [K7](https://github.com/arithmon/k7) (formerly GIFT).
 - **You do mathematics.** Start with [Lean](https://github.com/arithmon/lean)
   (the certified counts, **0** `sorry`) and the geometry entries in the
   [Atlas](https://github.com/arithmon/atlas) (G₂ holonomy, K3, the (21, 77)
