@@ -6,7 +6,7 @@ Thank you for your interest in the Arithmon program.
 
 Arithmon is the program: the durable hypothesis. GIFT is its founding framework.
 Most concrete code and proofs live in the framework repositories under
-github.com/gift-framework. This organization holds program-level material.
+github.com/Arithmon. This organization holds program-level material.
 
 This is a research program, not a product, so the useful contributions are not
 the usual ones. A sharp objection helps more than a typo fix.

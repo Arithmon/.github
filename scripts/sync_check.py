@@ -48,7 +48,7 @@ FILES = {
 # Repositories that must carry a non-empty GitHub description.
 DESCRIBED_REPOS = ["Arithmon/.github", "Arithmon/Program", "Arithmon/Atlas", "Arithmon/Sieve", "Arithmon/Lean"]
 
-FOOTER = "GIFT is the founding framework of the Arithmon program"
+FOOTER = "K₇ (formerly GIFT) is the founding framework of the Arithmon program"
 
 # file key -> list of (label, case-insensitive substring) that must appear.
 REQUIRED = {

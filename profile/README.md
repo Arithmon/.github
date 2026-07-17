@@ -20,7 +20,7 @@ that hypothesis. A specific compact G₂-holonomy geometry: the manifold K₇, t
 of exact, parameter-free relations among Standard-Model and cosmological
 observables is derived, with a machine-checked formal core.
 
-> **GIFT is the founding framework of the Arithmon program.**
+> **K₇ (formerly GIFT) is the founding framework of the Arithmon program.**
 
 A framework can be revised, sharpened, or falsified. The program is the question
 it answers to.
