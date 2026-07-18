@@ -40,7 +40,7 @@ it answers to.
 
 ```text
   Arithmon   the program                  →  are the constants of nature counts?
-  GIFT       the first framework          →  one dated answer: K₇, (21, 77), 33 relations
+  K7         the first framework          →  one dated answer: K₇, (21, 77), 33 relations (formerly GIFT)
   Sieve      the anti-numerology test     →  how surprising is that answer?
   Lean       the certified counting layer →  the arithmetic of the test, machine-checked
   Atlas      the map of neighbouring work →  who else stands near the question
@@ -89,6 +89,7 @@ Three ways in, by who you are.
 ### External engagement
 
 - Cited in *Physics Letters B* **878** (2026) 140566.
+- Invited remote participant, "DANGER: Data, Numbers, and Geometry" workshop Banff International Research Station (BIRS), April 5–10, 2026.
 
 ---
 
