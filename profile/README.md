@@ -26,6 +26,7 @@ can be revised or refuted. The question remains.
   Sieve      the anti-numerology test     →  how surprising is that answer?
   Lean       the certified counting layer →  the arithmetic of the test, machine-checked
   Atlas      the map of neighbouring work →  who else stands near the question
+  K3         the certified geometry       →  an explicit K3 surface, charts machine-checked
 ```
 
 ### Where the founding framework stands
@@ -71,6 +72,12 @@ own negative results rather than burying them.
   physics, the papers and the falsification tests.
 - [**K7-Lean**](https://github.com/arithmon/k7-lean): its machine-checked formal
   core in Lean 4 (formerly `gift-framework/core`).
+- [**K3**](https://github.com/arithmon/k3): certified analytic geometry on an
+  explicit K3 surface, a finite holomorphic atlas whose chart domains, transitions
+  and branch continuations are machine-checked
+  ([10.5281/zenodo.22047469](https://doi.org/10.5281/zenodo.22047469)). No
+  Ricci-flat metric is claimed; work toward a certified evaluation of the metric
+  is in progress.
 - [**Program**](https://github.com/arithmon/program): the charter (hard core,
   heuristics, six fair-play rules, chief among them never fit and never revise a
   frozen prediction), the eight open problems across five axes, and the
@@ -81,8 +88,9 @@ own negative results rather than burying them.
   expression grammars were frozen and deposited on **2026-06-12**, with a dated
   DOI, before any search ran
   ([10.5281/zenodo.20666879](https://doi.org/10.5281/zenodo.20666879)). Four null
-  models, calibration on historical verdicts (Eddington fails, the quantum Hall
-  relation passes), and a scorecard reusable on any framework, including ours and
+  models, calibration on the two historical development poles (Eddington and the
+  quantum Hall relation; the frozen rule admits Eddington's 1941 claim as a screen
+  survivor, and says so), and a scorecard reusable on any framework, including ours and
   including one built to beat it.
 - [**Lean**](https://github.com/arithmon/lean): the machine-checked formal layer
   of the Sieve. Certified expression-space counts (the haystack the trials factor
