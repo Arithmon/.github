@@ -60,7 +60,8 @@ SITES = {
 }
 
 # Repositories that must carry a non-empty GitHub description.
-DESCRIBED_REPOS = ["Arithmon/.github", "Arithmon/Program", "Arithmon/Atlas", "Arithmon/Sieve", "Arithmon/Lean"]
+DESCRIBED_REPOS = ["Arithmon/.github", "Arithmon/Program", "Arithmon/Atlas", "Arithmon/Sieve", "Arithmon/Lean",
+                   "Arithmon/K7", "Arithmon/K7-Lean", "Arithmon/K3", "Arithmon/Prevol"]
 
 # Declared DOIs live in two registers: the Sieve README owns the freeze facts,
 # and the program ledger owns every DOI used anywhere in the org.

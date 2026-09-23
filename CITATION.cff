@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "Arithmon organization profile and program checks"
+message: >-
+  If you use or discuss this repository, please cite it as below.
+type: software
+authors:
+  - family-names: "de La Fournière"
+    given-names: "Brieuc"
+repository-code: "https://github.com/Arithmon/.github"
+abstract: >-
+  Organization profile of the Arithmon program and the checks that keep its public surfaces synchronized.
+license: MIT
