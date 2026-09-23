@@ -32,7 +32,7 @@ can be revised or refuted. The question remains.
 
 - **0** free parameters
 - **33** exact relations to observables
-- **15** stated axioms (4 prediction-chain + 11 K3), **0** `sorry` in the Lean core
+- **14** stated axioms (4 prediction-chain + 10 K3), **0** `sorry` in the Lean core
 - **Non-generic at set level** (about 10⁻⁶, assumption-free null model)
 - Numerical precision is reported as a secondary figure, not the headline.
 
@@ -106,9 +106,9 @@ Everything above, at full length and on one page, is at
 
 ### Standing, honestly
 
-The founding paper is under journal review, a numerical G₂ dataset from this work
-is cited in *Physics Letters B* **878** (2026) 140566, and the certified K3 result
-has a presubmission inquiry pending. The author publishes solo and without
+The founding framework paper is under editorial assessment at a journal, not yet
+in peer review; earlier submissions from this work were declined. A numerical G₂
+dataset from this work is cited in *Physics Letters B* **878** (2026) 140566. The author publishes solo and without
 institutional affiliation, which makes the usual channels slower; that is a
 constraint of the territory, not an excuse. Independent reproduction or refutation
 is the thing the program most needs and least controls.
