@@ -116,13 +116,20 @@ Everything above, at full length and on one page, is at
 
 The founding framework paper is under editorial assessment at a journal, not yet
 in peer review; earlier submissions from this work were declined. A numerical G₂
-dataset from this work is cited in *Physics Letters B* **878** (2026) 140566. The author publishes solo and without
-institutional affiliation, which makes the usual channels slower; that is a
+dataset from this work is cited in *Physics Letters B* **878** (2026) 140566. The Arithmon papers are published
+solo and without institutional affiliation, which makes the usual channels slower; that is a
 constraint of the territory, not an excuse. Independent reproduction or refutation
 is the thing the program most needs and least controls.
 
 Invited remote participant, "DANGER: Data, Numbers, and Geometry" workshop,
 Banff International Research Station, April 5 to 10, 2026.
+
+Contributor, since September 2026, to Observer Patch Holography (OPH), a
+neighbouring program led by Bernhard Mueller, and co-author of its technical
+paper: B. Mueller et al., *Finite Observer Consensus as a Reconstruction
+Principle* (2026), [PhilPapers MUEFOC](https://philpapers.org/rec/MUEFOC). The
+two programs remain independent; where they meet is told in
+[*The Star Twin*](https://arithmon.substack.com/p/the-star-twin).
 
 ---
 
