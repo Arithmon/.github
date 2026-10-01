@@ -92,7 +92,8 @@ own negative results rather than burying them.
   quantum Hall relation; the frozen rule admits Eddington's 1941 claim as a screen
   survivor, and says so), and a scorecard reusable on any framework, including ours and
   including one built to beat it. The method paper, *Preregistration Requires a
-  Decision Rule*, is on [PhilPapers](https://philpapers.org/rec/DELPRA-11)
+  Decision Rule*, is on [PhilPapers](https://philpapers.org/rec/DELPRA-11) and
+  [SSRN](https://doi.org/10.2139/ssrn.7206359)
   ([10.5281/zenodo.21706145](https://doi.org/10.5281/zenodo.21706145)).
 - [**Lean**](https://github.com/arithmon/lean): the machine-checked formal layer
   of the Sieve. Certified expression-space counts (the haystack the trials factor
