@@ -117,8 +117,7 @@ Everything above, at full length and on one page, is at
 
 ### Standing, honestly
 
-The founding framework paper is under editorial assessment at a journal, not yet
-in peer review; earlier submissions from this work were declined. A numerical G₂
+The founding framework paper is under peer review at Scientific Reports; earlier submissions from this work were declined. A numerical G₂
 dataset from this work is cited in *Physics Letters B* **878** (2026) 140566. The Arithmon papers are published
 solo and without institutional affiliation, which makes the usual channels slower; that is a
 constraint of the territory, not an excuse. Independent reproduction or refutation
